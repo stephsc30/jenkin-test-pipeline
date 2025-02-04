@@ -5,7 +5,7 @@ pipeline {
        maven 'Maven3'
      }
      environment{
-          APP_NAME="jenkins-test-pipeline"
+          APP_NAME="jenkin-test-pipeline"
           RELEASE="1.0.0"
           DOCKER_USER="stephsc30"
           DOCKER_PASS="dockerhub"
